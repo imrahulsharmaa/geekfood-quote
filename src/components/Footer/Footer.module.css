@@ -1,0 +1,88 @@
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F4F6;
+    margin-top: 50px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer_name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    color: red; 
+}
+
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(61, 141, 0);
+}
+
+.footer_links {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+    color: #374151;
+}
+
+.footer_links:hover {
+    color: #6B7280;
+}
+
+.f_link {
+    color: #374151;
+    margin: 10px;
+}
+
+.footer_emoji {
+    font-size: 1.5rem;
+    padding: 10px 10px 10px 10px;
+    color: #58616E;
+    margin: 10px;
+    /* margin-top: 20px; */
+}
+
+.footer_emoji span {
+    margin: 15px;
+}
+
+.facebook:hover {
+    color: #154AA1;
+}
+
+.instagram:hover {
+    color: #BD3C6D;
+}
+
+.twitter:hover {
+    color: #1C96E8;
+}
+
+.github:hover {
+    color: #1A1E22;
+}
+
+.ball:hover {
+    color: #E16507;
+}
