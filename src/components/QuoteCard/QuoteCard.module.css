@@ -1,0 +1,49 @@
+.quoteCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.quoteCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.quoteCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #1F2937;
+    border-radius: 15px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.quote_text {
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: "Merienda", serif;
+    font-weight: 700;
+}
+
+.quote_name {
+    font-size: 1.5rem;
+    font-weight: 1000;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #9CA3AF;
+    font-family: "Dancing Script", serif;
+}
+
